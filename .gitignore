@@ -1,0 +1,20 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Datasets
+# If you want to track the datasets, you can remove these, but GitHub has a 100MB limit. 
+# netflix.csv and netflix_cleaned.csv are ~3MB so they are fine, but generally good practice to ignore large datasets if they grow.
